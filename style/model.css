@@ -1,7 +1,7 @@
 .title {
     font-family: "Tinos";
     font-weight: bold;
-    font-size: xx-large;
+    font-size: 2.5em;;
     margin-bottom: 0%;
     text-align: center;
 }
@@ -43,4 +43,30 @@ img {
 
 .HIGHLIGHT:hover {
     text-decoration-color: rgb(0, 0, 0)
+}
+
+.decorLines {
+  position: relative;
+  text-align: center;
+}
+
+.decorLines {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.decorLines .line {
+  flex: 1;
+  height: 5px;
+  background-color: rgb(219, 94, 94);
+  border-radius: 2px;
+}
+
+.decorLines .text {
+  white-space: nowrap;
+  font-weight: bold;
 }
