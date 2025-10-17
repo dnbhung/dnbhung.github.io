@@ -9,9 +9,18 @@
 p {
     font-family: "Tinos";
     font-weight: 500;
+    color: rgb(51, 51, 51);
     text-align: justify;
     text-align-last: center;
     text-overflow: ellipsis;
+    line-height: normal;
+}
+
+strong {
+    font-family: "Tinos";
+    color: rgb(51, 51, 51);
+    text-overflow: ellipsis;
+    line-height: normal;
 }
 
 span {
@@ -28,10 +37,17 @@ img {
 .word-wrap {
     text-align: left;
     word-wrap: break-word; 
-    line-height: 1.8;
+    font-size: 18px;
+    line-height: 30px;
     text-align-last: left;
     /*text-emphasis-color: rgb(55, 54, 54);*/
+}
 
+.word-wrap-noalign {
+    word-wrap: break-word; 
+    font-size: 18px;
+    line-height: 30px;
+    /*text-emphasis-color: rgb(55, 54, 54);*/
 }
 
 .HIGHLIGHT {
